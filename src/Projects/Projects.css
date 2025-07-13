@@ -1,0 +1,93 @@
+.projects {
+  padding: 60px 20px;
+  background-color: #FCEEFF;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 2rem;
+  color: #B783A7;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.project-card {
+  background-color: white;
+  border: 2px solid #B783A7;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(183, 131, 167, 0.15);
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(183, 131, 167, 0.3);
+  background-color: #f9e3f1;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-card h4 {
+  color: #5D3A58;
+  font-size: 1rem;
+}
+
+/* Modal */
+.project-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.project-modal-content {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  text-align: left;
+  color: #333;
+  position: relative;
+}
+
+.project-modal-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-modal-content button {
+  background-color: #B783A7;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-modal-content button:hover {
+  background-color: #9e6790;
+}

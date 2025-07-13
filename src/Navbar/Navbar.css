@@ -1,0 +1,55 @@
+.Nav {
+  background-color: #FCEEFF; /* Lavender background */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  box-shadow: 0 4px 12px rgba(183, 131, 167, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Logo */
+.nav-logo {
+  width: 90px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Menu */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  font-weight: 500;
+  color: #5D3A58;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-menu li:hover {
+  color: #B783A7;
+}
+
+/* Connect Button */
+.connectme {
+  background-color: #B783A7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 0 10px #d3a3c3, 0 0 20px #d3a3c3;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.connectme:hover {
+  background-color: #9E6C94;
+  box-shadow: 0 0 15px #b783a7, 0 0 25px #b783a7;
+}

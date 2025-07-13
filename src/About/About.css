@@ -1,0 +1,106 @@
+.about {
+  background-color: #FCEEFF;
+  padding: 60px 20px;
+  color: #5D3A58;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title */
+.about-title {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.about-title h1 {
+  font-size: 2.5rem;
+  color: #B783A7;
+}
+
+/* Profile + Text Flex Layout */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+/* Profile image */
+.about-left img {
+  width: 280px;
+  height: 280px;
+  border-radius: 0;
+  border:none;
+  box-shadow:none;
+  object-fit: cover;
+}
+
+/* About text */
+.about-right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+/* Skills Section */
+.about-skills {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-skills h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #B783A7;
+}
+
+/* Skill Cards Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 10px;
+}
+
+/* Each Skill Card */
+.skill-card {
+  background-color: #fff;
+  border: 2px solid #B783A7;
+  border-radius: 12px;
+  padding: 15px 10px;
+  width: 130px;
+  height: 120px;
+  box-shadow: 0 0 10px rgba(183, 131, 167, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(183, 131, 167, 0.4);
+  background-color: #f9e9f3;
+}
+
+.skill-card img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+.skill-card span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #5D3A58;
+  text-align: center;
+}
+
