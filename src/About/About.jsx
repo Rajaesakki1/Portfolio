@@ -1,6 +1,58 @@
 import React from 'react';
 import './About.css';
 
+const skillCategories = [
+  {
+    label: 'Web Technologies',
+    skills: [
+      { name: 'HTML5', img: '/assets/html.jpg' },
+      { name: 'CSS3', img: '/assets/css.jpg' },
+    ],
+  },
+  {
+    label: 'Languages',
+    skills: [
+      { name: 'C', img: '/assets/c.jpg' },
+      { name: 'Java (Core & OOP)', img: '/assets/java.jpg' },
+      { name: 'JavaScript (ES6+)', img: '/assets/js.jpg' },
+    ],
+  },
+  {
+    label: 'Frontend',
+    skills: [
+      { name: 'ReactJS', img: '/assets/reactjs.jpg' },
+      { name: 'Tailwind CSS', img: '/assets/tailwindcss.jpg' },
+      { name: 'Bootstrap', img: '/assets/bootstrap.jpg' },
+    ],
+  },
+  {
+    label: 'Backend',
+    skills: [
+      { name: 'Spring Boot', img: '/assets/springbt.jpg' },
+    ],
+  },
+  {
+    label: 'Database',
+    skills: [
+      { name: 'MySQL', img: '/assets/mysql.jpg' },
+      { name: 'PostgreSQL', img: '/assets/postgrensql.jpg' },
+    ],
+  },
+  {
+    label: 'Version Control',
+    skills: [
+      { name: 'GitHub', img: '/assets/github.jpg' },
+    ],
+  },
+  {
+    label: 'Tools',
+    skills: [
+      { name: 'IntelliJ IDEA', img: '/assets/intelij.jpg' },
+      { name: 'Postman', img: '/assets/postman.jpg' },
+    ],
+  },
+];
+
 function About() {
   return (
     <div id='About Me' className="about">
@@ -32,25 +84,18 @@ function About() {
       {/* Skills Section */}
       <div className="about-skills">
         <h2>My Skills</h2>
-        <div className="skills-grid">
-          {[
-            { name: 'C', img: '/assets/c.jpg' },
-            { name: 'Java (Core & OOP)', img: '/assets/java.jpg' },
-            { name: 'JavaScript (ES6+)', img: '/assets/js.jpg' },
-            { name: 'ReactJS', img: '/assets/reactjs.jpg' },
-            { name: 'HTML5', img: '/assets/html.jpg' },
-            { name: 'CSS3', img: '/assets/css.jpg' },
-            { name: 'Bootstrap', img: '/assets/bootstrap.jpg' },
-            { name: 'Tailwind CSS', img: '/assets/tailwindcss.jpg' },
-            { name: 'Spring Boot', img: '/assets/springbt.jpg' },
-            { name: 'MySQL', img: '/assets/mysql.jpg' },
-            { name: 'PostgreSQL', img: '/assets/postgrensql.jpg' },
-            { name: 'GitHub', img: '/assets/github.jpg' },
-            { name: 'IntelliJ IDEA', img: '/assets/intelij.jpg' },
-          ].map((skill, index) => (
-            <div key={index} className="skill-card">
-              <img src={skill.img} alt={skill.name} />
-              <span>{skill.name}</span>
+        <div className="skills-categories">
+          {skillCategories.map((category, idx) => (
+            <div className="skill-category" key={category.label}>
+              <h3 className="category-title">{category.label}</h3>
+              <div className="skills-grid">
+                {category.skills.map((skill, index) => (
+                  <div key={skill.name} className="skill-card animated-skill" style={{ animationDelay:` ${0.08 * index}` }}>
+                    <img src={skill.img} alt={skill.name} />
+                    <span>{skill.name}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
