@@ -12,6 +12,7 @@ function Navbar() {
         <li><a href='#Home' className='text-pink text-decoration'>Home</a></li>
         <li><a href='#About Me' className='text-pink text-decoration'>About Me</a></li>
         <li><a href='#Contact' className='text-pink text-decoration'>Contact</a></li>
+         <li><a href='#Portfolio' className='text-pink text-decoration'>Portfolio</a></li>
       </ul>
 
       <div className='connectme'>Connect with me</div>

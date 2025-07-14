@@ -4,13 +4,13 @@ import './Projects.css';
 const projects = [
   {
     title: "Instagram Clone",
-    image: "/assets/project1.jpg",
+    image: "/assets/project11.jpg",
     description: "This Instagram clone replicates the core UI of the original platform, focusing on layout, styling, and interactivity. It includes:📸 Post cards with images and captions ❤ Like button with animation🧑‍🤝‍🧑 Story bubbles and top bar🔧 Built using pure HTML, CSS (with Bootstrap), and JavaScript.",
   },
   {
-    title: "Sustainable Food App",
-    image: "/assets/sustain.jpg",
-    description: "An app promoting eco-friendly dining using ReactJS and PostgreSQL.",
+    title: "Portfolio",
+    image: "/assets/project2.jpg",
+    description: "Welcome to my personal space on the web! 💻✨This app showcases who I am, my skills, 💡 projects, 🎯 and the tools I love using. From frontend magic with React & CSS to backend basics and cool tools like VS Code & Postman, it's all here! You can even download my resume, check out my work, and get to know the tech stack I’m passionate about. 💼💻Built with 💖 using React.js",
   },
   {
     title: "Design Thinking Dashboard",
