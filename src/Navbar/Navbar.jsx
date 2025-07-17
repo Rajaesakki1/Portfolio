@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <div className='Nav'>
-      <img style={{ width: '90px', height: '40px' }} src='/assets/namelogo.jpg' alt='Logo' />
+      <img style={{ width: '90px', height: '40px' }} src='/assets/namelogo1.jpg' alt='Logo' />
       
       <ul className='nav-menu'>
         <li><a href='#Home' className='text-pink text-decoration'>Home</a></li>
@@ -19,7 +19,7 @@ function Navbar() {
 
       {/* Hamburger icon for mobile */}
       <button className='hamburger' aria-label='Open menu' onClick={() => setSidebarOpen(true)}>
-        <span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
       </button>
 
       {/* Sidebar drawer */}
