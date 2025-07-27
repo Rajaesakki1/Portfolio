@@ -178,3 +178,27 @@
     display: none !important;
   }
 }
+.connect-btn {
+  background: linear-gradient(90deg, #ff4ecd, #ff6bcb);
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 0 18px #ff4ecd, 0 0 32px #ff6bcb;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s, color 0.3s;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%; /* optional, so it fills container */
+}
+
+.connect-btn:hover,
+.connect-btn:focus {
+  background: linear-gradient(90deg, #ff6bcb, #ff4ecd);
+  box-shadow: 0 0 32px #ff4ecd, 0 0 48px #ff6bcb;
+  color: #fff;
+  outline: none;
+}
