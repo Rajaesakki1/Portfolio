@@ -13,9 +13,9 @@ const projects = [
     description: "Welcome to my personal space on the web! 💻✨This app showcases who I am, my skills, 💡 projects, 🎯 and the tools I love using. From frontend magic with React & CSS to backend basics and cool tools like VS Code & Postman, it's all here! You can even download my resume, check out my work, and get to know the tech stack I’m passionate about. 💼💻Built with 💖 using React.js",
   },
   {
-    title: "Design Thinking Dashboard",
-    image: "/assets/design.jpg",
-    description: "A visual interface for managing innovation using design thinking principles.",
+    title: "You Tube Clone",
+    image: "/assets/youtube.png",
+    description: "I built a YouTube clone using ⚛ ReactJS, 🎨 CSS, and 📡 YouTube Data API.It lets users 🔍 search, 📺 watch videos, and 📜 browse categories with a responsive 📱💻 design.This project improved my skills in 🪝 React hooks, 🔗 API integration, and 💡 modern UI design.",
   },
 ];
 

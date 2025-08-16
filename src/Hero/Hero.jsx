@@ -5,7 +5,7 @@ import './Hero.css';
 function Hero() {
   const navigate = useNavigate();
 
-  // Smooth scroll to Contact section on the page
+  
   const scrollToContact = () => {
     const contactSection = document.getElementById('Contact');
     if (contactSection) {

@@ -27,7 +27,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/resume" element={<Resume />} /> {/* Route to Resume component */}
+        <Route path="/resume" element={<Resume />} /> 
       </Routes>
     </Router>
   );
