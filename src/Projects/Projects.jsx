@@ -4,18 +4,18 @@ import './Projects.css';
 const projects = [
   {
     title: "Instagram Clone",
-    image: "/assets/project11.jpg",
+    image: "/assets/instapro.png",
     description: "This Instagram clone replicates the core UI of the original platform, focusing on layout, styling, and interactivity. It includes:📸 Post cards with images and captions ❤ Like button with animation🧑‍🤝‍🧑 Story bubbles and top bar🔧 Built using pure HTML, CSS (with Bootstrap), and JavaScript.",
   },
-  {
-    title: "Portfolio",
-    image: "/assets/project2.jpg",
-    description: "Welcome to my personal space on the web! 💻✨This app showcases who I am, my skills, 💡 projects, 🎯 and the tools I love using. From frontend magic with React & CSS to backend basics and cool tools like VS Code & Postman, it's all here! You can even download my resume, check out my work, and get to know the tech stack I’m passionate about. 💼💻Built with 💖 using React.js",
-  },
+ 
   {
     title: "You Tube Clone",
-    image: "/assets/youtube.png",
+    image: "/assets/youtubepro.png",
     description: "I built a YouTube clone using ⚛ ReactJS, 🎨 CSS, and 📡 YouTube Data API.It lets users 🔍 search, 📺 watch videos, and 📜 browse categories with a responsive 📱💻 design.This project improved my skills in 🪝 React hooks, 🔗 API integration, and 💡 modern UI design.",
+  }, {
+    title: "SkySence",
+    image: "/assets/NM output1.png",
+    description: "⚠️ Disclaimer 🌦️ The SkySence Live Weather Dashboard is a personal project developed using React and live weather APIs.💻 It’s designed to be user-friendly, interactive, and a fun learning experience.📡 Weather data is fetched from third-party sources, so accuracy may vary.📊 The app is meant for educational and informational purposes only.🚫 Do not rely solely on this dashboard for critical weather decisions.🧭 The developer does not guarantee the completeness or reliability of data.🎨 All visuals and features are part of the project’s design showcase.🛠️ This project highlights skills in API integration and React development.",
   },
 ];
 

@@ -6,7 +6,7 @@ function Navbar() {
   
   return (
     <div className='Nav'>
-      <img style={{ width: '90px', height: '40px' }} src='/assets/namelogo1.jpg' alt='Logo' />
+      <img style={{ width: '90px', height: '40px' }} src='/assets/rlogo.jpg' alt='Logo' />
       
       <ul className='nav-menu'>
         <li><a href='#Home' className='text-pink text-decoration'>Home</a></li>
