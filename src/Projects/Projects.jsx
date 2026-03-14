@@ -16,6 +16,7 @@ const projects = [
     title: "SkySence",
     image: "/assets/NM output1.png",
     description: "⚠️ Disclaimer 🌦️ The SkySence Live Weather Dashboard is a personal project developed using React and live weather APIs.💻 It’s designed to be user-friendly, interactive, and a fun learning experience.📡 Weather data is fetched from third-party sources, so accuracy may vary.📊 The app is meant for educational and informational purposes only.🚫 Do not rely solely on this dashboard for critical weather decisions.🧭 The developer does not guarantee the completeness or reliability of data.🎨 All visuals and features are part of the project’s design showcase.🛠️ This project highlights skills in API integration and React development.",
+    link:"https://rajaesakki1.github.io/NM-live-weather-dashboard/"
   },
 ];
 
@@ -28,7 +29,7 @@ function Projects() {
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div className="project-card" key={index} onClick={() => setActiveProject(project)}>
-            <img src={project.image} alt={project.title} />
+            <img src={project.image}  onclick ={()=>window.open(project.link,"_blank")}alt={project.title} />
             <h4>{project.title}</h4>
           </div>
         ))}
